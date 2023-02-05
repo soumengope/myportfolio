@@ -1,0 +1,67 @@
+@media screen and (min-width:0px) and (max-width:768px){
+    
+    body{margin:0;padding:0;box-sizing:border-box;width:100%;height:100%;
+    }
+    #top_header{display:none}
+    #mob_header{margin:0;display:block;display:flex;justify-content:center;gap:20px;padding-top:4px;
+    border-bottom:1px solid black;padding-bottom:5px;}
+    #insta_01{position:relative;top:3px;}
+    #twitter_02{position:relative;top:2px;}
+    #linkdin_03{position:relative;top:2px;}
+    #github_04{position:relative;bottom:1px;}
+
+    #main_logodgn{padding-bottom:5px;}
+    #developer{position:relative;right:15px;}
+
+    #main_header_content{display:none;grid-template-columns:repeat(1,1fr);gap:5px;
+        padding-top:5px;padding-bottom:5px;margin:0;text-align:center;} 
+    
+    #tagline img{position:relative;bottom:25px;left:0px;}
+
+    #my_img{display:none;}
+    #my_img2{display:block;}
+    #whoami{display:grid; grid-template-columns:repeat(1,1fr);margin:0;}
+    #my_img2{grid-column:1/-1;margin:0;}
+    #intro{grid-column:1/-1;text-align:left;margin:10px;font-size:18px;text-shadow:none;font-weight:500;}
+
+    #myhob_next{display:grid;grid-template-columns:repeat(1,1fr);}
+    .myhob_adjName{padding-bottom:5px;padding-top:5px;border:1px solid black;width:90%;font-weight:600;
+        display:flex;justify-content:center;}
+    #skills_req{grid-template-columns:repeat(1,1fr);margin:5px;gap:10px;padding-top:10px;}
+    .main_skill_box{width:100%;height:20px;background-color:black;position:relative;top:7px;right:26px;font-weight:600;
+        border:1px solid rgb(255, 255, 255);text-align:left;box-shadow:1px 1px 3px 1px black;}
+    
+    .myhob_adj img{width:90%;height:90%;}
+    .myhob_adjName::after{content:' ';width:50px;height:2px;background-color:black;margin-left:0px;}
+    .myhob_adjName::before{content:' ';width:50px;height:2px;background-color:black;margin-right:0px;} 
+    .myhob_adj img:hover{width:285px;height:185px;}
+    .myhob_adj{padding-top:5px;}
+    #myhob_next{padding-top:10px;padding-left:2px;}
+
+    #personal_skills{grid-template-columns:repeat(1,1fr);gap:2px;margin:0 auto;border-bottom:10px;width:85%;}
+    #personal_skills div{padding-bottom:5px;padding-top:4px;box-shadow:2px 2px 10px black;margin-bottom:5px;}
+
+    #services{display:grid;grid-template-columns:repeat(1,1fr);gap:5px;text-align:center;margin:2px;}
+
+    #html_load{width:90%;padding-left:2px;}    
+    #css_load{width:100%;padding-left:2px;} 
+    #js_load{width:70%;padding-left:2px;}    
+    #php_load{width:30%;padding-left:2px;}       
+    #mysql_load{width:20%;padding-left:2px;} 
+    #ps_load{width:10%;padding-left:2px;}
+
+
+    #top_footer{margin:0;display:grid; grid-template-columns:repeat(1,1fr);gap:0px;margin:0;}
+    #fname,#lname{position:relative;right:0px;top:0px;}
+    #mail{position:relative;right:0px;top:0px;}
+    #askmehere{position:relative;right:0px;top:0px;}
+    #message_me input{width:70%;height:25px;text-align:center;margin:0;font-size:16px;}
+    #message_me textarea{font-size:16px;width:70%;}
+    #submit{margin-top:10px;margin-bottom:20px;padding-top:3px;}
+
+    .cnt_me{border:0px;margin-left:0;margin-right:0;margin:0;padding:0;padding-bottom:10px;}
+
+
+    #footer{border-top:0ch;}
+
+}

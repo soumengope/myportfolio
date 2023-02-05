@@ -1,0 +1,162 @@
+    body{background-color:rgb(255, 255, 255);margin:0;padding:0;box-sizing:border-box;
+    height:100%;width:100%;box-sizing:border-box;}
+    html{scroll-behavior:smooth;}
+    
+    #mob_header{display:none;}
+    #top_header{display:flex;height:30px;justify-content:right;gap:80px; border-bottom:1px solid black;
+    padding-right:20px;padding-top:5px;}
+    #twitter{position:relative;bottom:2px;right:20px;}
+    #linkdin{position:relative;bottom:1px;right:50px;}
+    #email{position:relative;left:8px;}
+    #github{position:relative;right:75px;bottom:6px;}
+    #email_id{position:relative;bottom:40px;left:35px;}
+    #twitter_id{position:relative;bottom:45px;left:5px;}
+    #linkdin_id{position:relative;bottom:45px;right:20px;}
+    #github_id{position:relative;bottom:55px;right:40px;}
+    .linked a{text-decoration:none;}
+    
+    #main_logodgn{margin:0;padding-top:15px;padding-bottom:30px;}
+    #main_header_logo{margin:0;font-family:'Lucida Sans';font-size:25px;font-weight:800;}
+    #myname{margin:0;position:relative;right:50px;}
+    #developer{margin:0;position:relative;right:-15px;}
+
+
+    #main_header_content{width:100%;display:flex; justify-content:center; gap:30px;padding-top:5px;padding-bottom:5px;}
+    #main_header_content button{color:Black;background-color:white;width:150px;height:35px;font-weight:600;
+        box-shadow:1px 1px 3px 1px black;border:1px solid white;}
+    #main_header_content button:hover{border:1px solid black;} 
+
+    #tagline{text-align:center;padding-top:10px;font-size:26px;}
+    #tagline img{border:1px solid rgb(255, 255, 255);width:130px;height:45px;position:relative;bottom:25px;left:120px;}
+    
+    #my_img2{display:none;}
+    #whoami_logo{font-family: 'Lucida Sans';font-size:20px;font-weight:800;padding-bottom:5px;}
+    #whoami{display:grid; grid-template-columns:repeat(4,1fr);margin:5px;}
+    #my_img{grid-column:1/2;filter:grayscale(100);}
+    #whoami img{width:245px;height:245px;padding-top:10px;}
+    #intro{grid-column:2/-1;text-align:left; margin:10px; padding:5px;font-size:18px;
+    text-shadow:1px 1px 2px black;margin-left:20px;} 
+    
+    
+    #my_hobbies{padding-top:10px;font-family:'Lucida Sans';font-size:20px;font-weight:800;}
+    #myhob_next{display:grid;grid-template-columns:repeat(4,1fr);}
+    .myhob_adj{padding-top:30px;font-family: 'Arial';font-weight: 400;} 
+    .myhob_adj img{filter:grayscale(100);}  
+    .myhob_adj img{width:290px;height:190px;border:1px solid white;box-shadow:1px 1px 5px 1px black;
+        opacity:.9;} 
+    .myhob_adjName{padding-bottom:5px;padding-top:5px;border:1px solid black;width:96%;font-weight:600;
+    display:flex;justify-content:center;}
+    .myhob_adjName::after{content:' ';width:60px;height:2px;background-color:black;margin-top:8px;
+        margin-left:5px;}
+    .myhob_adjName::before{content:' ';width:60px;height:2px;background-color:black;margin-top:8px;
+        margin-right:5px;} 
+    .myhob_adj img:hover{width:285px;height:185px;} 
+    
+
+    #personalskills_header{padding-top:5px;font-family: 'Lucida Sans';font-size:20px;font-weight:800;padding-top:20px;
+        padding-bottom:10px;}
+    #personal_skills{display:grid;grid-template-columns:repeat(4,1fr);gap:25px;margin:20px;text-align:center;
+    border-bottom:10px;}
+    #personal_skills div{border-bottom:1px solid black;font-size:17px;font-weight:600;padding-bottom:5px;
+        padding-top:4px;box-shadow:2px 2px 10px black;}
+    
+    
+    
+    
+    #services_logo{padding-top:5px;font-family: 'Lucida Sans';font-size:20px;font-weight:800;padding-top:20px;
+        padding-bottom:5px;}
+    #services{margin:0;display:grid;grid-template-columns:repeat(3,1fr);gap:10px;text-align:center;margin:10px;}
+    #services img{filter:grayscale(100);}
+    #backend_eng,#frontend_dev,#gfx_dgn{border:1px solid black;margin:5px;box-shadow:1px 1px 5px 1px black;}
+    #backend_img{width:150px;height:150px;}   
+    #frontend_img{width:250px;height:150px;}
+    #gfxdgn_img{width:250px;height:150px;} 
+
+
+    
+    #skill_header_logo{padding-top:20px;font-family: 'Lucida Sans';font-size:20px;font-weight:800;}
+    #skills_req{display:grid;grid-template-columns:repeat(2,1fr);margin:20px;gap:10px;padding-top:10px;}
+    .skill_sets{display:grid;grid-template-columns:repeat(2,1fr);text-align:center;border:1px solid rgb(0, 0, 0);
+    margin-bottom:25px;box-shadow:1px 1px 5px 1px black;}
+    .skill_name{padding-top:10px;padding-bottom:8px;font-weight:600;font-size:16px;}
+    .main_skill_box{width:300px;height:20px;background-color:black;position:relative;top:7px;right:26px;font-weight:600;
+        border:2px solid black;text-align:left;box-shadow:1px 1px 3px 1px black;}     
+    #html_load{width:270px;height:20px;background-color:white;}    
+    #css_load{width:300px;height:20px;background-color:white;} 
+    #js_load{width:210px;height:20px;background-color:white;}    
+    #php_load{width:90px;height:20px;background-color:rgb(255, 255, 255);}       
+    #mysql_load{width:60px;height:20px;background-color:rgb(255, 255, 255);} 
+    #ps_load{width:30px;height:20px;background-color:rgb(255, 255, 255);} 
+    
+    
+    
+    #html_anim{width:270px;height:20px;animation-name:htmlAnim; animation-duration:4s; animation-timing-function:linear;
+            animation-iteration-count:1;background-color:rgb(255, 255, 255);}
+        @keyframes htmlAnim{
+            0%{width:0px;height:20px;}
+            50%{width:135px;height:20px;}
+            100%{width:270px;height:20px;}
+        } 
+    #css_anim{width:300px;height:20px;animation-name:cssAnim; animation-duration:4s; animation-timing-function:linear;
+        animation-iteration-count:1;background-color:rgb(255, 255, 255);}     
+        @keyframes cssAnim{
+            0%{width:0px;height:20px;}
+            50%{width:150px;height:20px;}
+            100%{width:300px;height:20px;}
+        }   
+    #js_anim{width:210px;height:20px;animation-name:jsAnim; animation-duration:4s; animation-timing-function:linear;
+        animation-iteration-count:1;background-color:rgb(255, 255, 255);}     
+        @keyframes jsAnim{
+            0%{width:0px;height:20px;}
+            50%{width:105px;height:20px;}
+            100%{width:210px;height:20px;}
+        }   
+    #php_anim{width:90px;height:20px;animation-name:phpAnim; animation-duration:4s; animation-timing-function:linear;
+        animation-iteration-count:1;background-color:rgb(255, 255, 255);}     
+        @keyframes phpAnim{
+            0%{width:0px;height:20px;}
+            50%{width:45px;height:20px;}
+            100%{width:90px;height:20px;}
+        } 
+        #mysql_anim{width:60px;height:20px;animation-name:mysqlAnim; animation-duration:4s; animation-timing-function:linear;
+            animation-iteration-count:1;background-color:rgb(255, 255, 255);}     
+            @keyframes mysqlAnim{
+                0%{width:0px;height:20px;}
+                50%{width:30px;height:20px;}
+                100%{width:60px;height:20px;}
+            } 
+    #ps_anim{width:30px;height:20px;animation-name:psAnim; animation-duration:4s; animation-timing-function:linear;
+        animation-iteration-count:1;background-color:rgb(255, 255, 255);}     
+            @keyframes psAnim{
+                0%{width:0px;height:20px;}
+                50%{width:15px;height:20px;}
+                100%{width:30px;height:20px;}
+            } 
+    
+    
+    #topfooter_logo{padding-top:5px;padding-bottom:10px;font-family:'Lucida Sans';font-size:20px;font-weight:800;}
+    #top_footer{display:grid; grid-template-columns:repeat(2,1fr);gap:20px;text-align:center;margin:10px;color:white;}
+    #message_me,#contact_me{border:1px solid rgb(255, 255, 255);padding-bottom:20px;background:rgb(24, 23, 23);}
+    #fname,#lname{line-height:0;position:relative;right:85px;top:7px;}
+    #message_me{padding-bottom:10px;}
+    #mail{line-height:0;position:relative;right:93px;top:7px;}
+    #askmehere{line-height:0;position:relative;right:80px;top:7px;}
+    #message_me textarea{border:2px solid rgb(255, 255, 255);text-align:center;}
+    #message_me input{border:2px solid rgb(255, 255, 255);width:235px;height:25px;text-align:center;}
+    #msgme_header{padding-bottom:5px;padding-top:10px;font-family:'Lucida Sans';font-size:18px;font-weight:600;}
+    #submit{border:1px solid rgb(0, 0, 0);width:100px;height:28px;box-shadow:1px 1px 4px 1px rgb(255, 255, 255);
+        background-color:white;margin-top:5px;font-size:16px;font-weight:600;padding-top:5px;padding-bottom:20px;}
+    
+    #contactme_header{padding-bottom:20px;padding-top:10px;font-family:'Lucida Sans';font-size:18px;font-weight:600;}
+    #contact_me p{line-height:0;}
+    .cnt_me{border-bottom:3px solid rgb(255, 255, 255);padding-bottom:15px;
+        padding-top:8px;}
+    .contactme_val{padding-bottom:4px;}
+
+    
+    
+    #footer{text-align:center;margin-top:10px; padding-top:5px; border-top:1px solid black;
+        padding-bottom:10px;}   
+    
+    
+    
