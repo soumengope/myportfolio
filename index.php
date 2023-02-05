@@ -43,7 +43,7 @@
     </div>
 
     <div id="tagline">
-        <p>"Those small changes <br> Become justify Your Existance"</p>
+        <p>"Those small changes <br> can justify Your Existance"</p>
         <img src="img/my_sign.png" alt="">
     </div>
 
